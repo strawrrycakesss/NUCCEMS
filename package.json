@@ -1,0 +1,15 @@
+{
+  "name": "nucems-root",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "npm run dev --prefix NUCEMS_Campus_Emergency_Management_System/server",
+    "dev:server": "npm run dev --prefix NUCEMS_Campus_Emergency_Management_System/server",
+    "dev:client": "npm run dev --prefix NUCEMS_Campus_Emergency_Management_System/client",
+    "seed": "npm run seed --prefix NUCEMS_Campus_Emergency_Management_System/server",
+    "install:all": "npm install --prefix NUCEMS_Campus_Emergency_Management_System/server && npm install --prefix NUCEMS_Campus_Emergency_Management_System/client"
+  },
+  "devDependencies": {
+    "mongodb-memory-server": "^11.3.0"
+  }
+}
